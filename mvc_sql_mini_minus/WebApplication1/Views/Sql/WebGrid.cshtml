@@ -1,0 +1,66 @@
+﻿@model IEnumerable<WebApplication1.Controllers.MyModel>
+
+@{
+    ViewBag.Title = "WebGrid";
+    var grid = new WebGrid(null,
+        defaultSort: ViewBag.sortCol,
+        sortFieldName: "sortCol",
+        sortDirectionFieldName: "sortDir",
+        rowsPerPage: ViewBag.rowsPerPage);
+    grid.Bind(Model, rowCount: ViewBag.count, autoSortAndPage: false);
+}
+
+<STYLE type="text/css">
+    .OrderID { width: 80px; }
+    .Description { width: 160px; }
+    .Price { width: 60px; }
+    .Items { width: 60px; }
+    .CustomerID { width: 120px; }
+    .Name { width: 120px; }
+    .Age { width: 60px; }
+</STYLE>
+
+<h2>WebGrid View</h2>
+
+<h3>Missing</h3> 
+<ul>
+<li>table borders</li>
+<li>header up/down arrows</li>
+<li>secondary sorting on orderid</li>
+<li>sorting on name and age</li>
+<li>price currency formating</li>
+<li>numbers right alignment</li>
+<li>pager complete</li>
+<li>ordering by: ??? ???</li>
+<li>generated request sql: ???</li>
+</ul>
+
+<div>
+    @grid.GetHtml(
+        tableStyle: "table",
+        columns: grid.Columns(
+            grid.Column(header: "OrderID", columnName: "OrderID", style: "OrderID"),
+            grid.Column(header: "Description", columnName: "Description", style: "Description"),
+            grid.Column(header: "Price", columnName: "Price", style: "Price"),
+            grid.Column(header: "Items", columnName: "Items", style: "Items"),
+            grid.Column(header: "CustomerID", columnName: "CustomerID", style: "CustomerID"),
+            grid.Column(header: "Name", columnName: "Name", style: "Name"),
+            grid.Column(header: "Age", columnName: "Age", style: "Age")
+        )
+        mode: WebGridPagerModes.NextPrevious
+    )
+
+    <div>
+        <h3>Ordering by:</h3>
+        <b>???</b> ???
+    </div>
+</div>
+
+<hr/>
+ 
+<div style="max-width: 100%;">
+    <h4>Request SQL:</h4>
+    <textarea id="styled" rows="16" cols="100" style="max-width: 100%;">
+        ???
+    </textarea>
+</div>

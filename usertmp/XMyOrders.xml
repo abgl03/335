@@ -1,0 +1,86 @@
+<MyOrders>
+  <MyOrder>
+    <OrderID>1010</OrderID>
+    <CustomerID>rnic</CustomerID>
+    <Description>optical mouse</Description>
+    <Price>10.0000</Price>
+    <Items>1</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>1020</OrderID>
+    <CustomerID>rnic</CustomerID>
+    <Description>flash memory</Description>
+    <Price>20.0000</Price>
+    <Items>2</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>2010</OrderID>
+    <CustomerID>sman</CustomerID>
+    <Description>digital camera</Description>
+    <Price>20.0000</Price>
+    <Items>3</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>2020</OrderID>
+    <CustomerID>sman</CustomerID>
+    <Description>pocket pc</Description>
+    <Price>20.0000</Price>
+    <Items>2</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>2030</OrderID>
+    <CustomerID>sman</CustomerID>
+    <Description>iphone</Description>
+    <Price>20.0000</Price>
+    <Items>2</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>3010</OrderID>
+    <CustomerID>xyie</CustomerID>
+    <Description>distributed firewall</Description>
+    <Price>25.0000</Price>
+    <Items>1</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>3020</OrderID>
+    <CustomerID>xyie</CustomerID>
+    <Description>byzantine node</Description>
+    <Price>10.0000</Price>
+    <Items>4</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>3030</OrderID>
+    <CustomerID>xyie</CustomerID>
+    <Description>lamport snapshot</Description>
+    <Price>15.0000</Price>
+    <Items>2</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>4010</OrderID>
+    <CustomerID>pdel</CustomerID>
+    <Description>cuda card</Description>
+    <Price>40.0000</Price>
+    <Items>4</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>5010</OrderID>
+    <CustomerID>zwan</CustomerID>
+    <Description>usb drive</Description>
+    <Price>15.0000</Price>
+    <Items>2</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>5020</OrderID>
+    <CustomerID>zwan</CustomerID>
+    <Description>keyboard</Description>
+    <Price>10.0000</Price>
+    <Items>1</Items>
+  </MyOrder>
+  <MyOrder>
+    <OrderID>5030</OrderID>
+    <CustomerID>zwan</CustomerID>
+    <Description>mouse</Description>
+    <Price>5.0000</Price>
+    <Items>3</Items>
+  </MyOrder>
+</MyOrders>

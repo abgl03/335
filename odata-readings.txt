@@ -1,0 +1,22 @@
+
+WCF Data Services
+https://msdn.microsoft.com/en-us/library/cc668792(v=vs.103).aspx
+
+Exposing Your Data as an OData Service (WCF Data Services)
+https://msdn.microsoft.com/en-us/library/dd728286(v=vs.103).aspx
+
+Creating the Northwind Data Service (WCF Data Services Quickstart)
+https://msdn.microsoft.com/en-us/library/dd728275(v=vs.103).aspx
+
+Configuring the Data Service (WCF Data Services)
+https://msdn.microsoft.com/en-us/library/ee358710(v=vs.103).aspx
+
+How to: Create a Data Service Using the Reflection Provider (WCF Data Services)
+https://msdn.microsoft.com/en-us/library/dd728281(v=vs.103).aspx
+
+Accessing an OData Service (WCF Data Services)
+https://msdn.microsoft.com/en-us/library/dd728283(v=vs.103).aspx
+
+Accessing OData Feeds from a Web Browser (WCF Data Services Quickstart)
+https://msdn.microsoft.com/en-us/library/dd728279(v=vs.103).aspx
+

@@ -1,0 +1,6 @@
+Getting Started with ASP.NET MVC 5
+http://www.asp.net/mvc/overview/getting-started/introduction/getting-started
+Follow this tut, not the Core MVC 6 version
+
+GridView Class
+https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.gridview(v=vs.110).aspx

@@ -1,0 +1,37 @@
+<MyCustomers>
+  <MyCustomer>
+    <CustomerID>ggim</CustomerID>
+    <Name>Georgy (Георгй)</Name>
+    <Age>58</Age>
+  </MyCustomer>
+  <MyCustomer>
+    <CustomerID>pdel</CustomerID>
+    <Name>Patrice</Name>
+    <Age>42</Age>
+  </MyCustomer>
+  <MyCustomer>
+    <CustomerID>rnic</CustomerID>
+    <Name>Radu</Name>
+    <Age>56</Age>
+  </MyCustomer>
+  <MyCustomer>
+    <CustomerID>sman</CustomerID>
+    <Name>Mano</Name>
+    <Age>42</Age>
+  </MyCustomer>
+  <MyCustomer>
+    <CustomerID>ugue</CustomerID>
+    <Name>Ulrich</Name>
+    <Age />
+  </MyCustomer>
+  <MyCustomer>
+    <CustomerID>xyie</CustomerID>
+    <Name>Xinfeng</Name>
+    <Age>48</Age>
+  </MyCustomer>
+  <MyCustomer>
+    <CustomerID>zwan</CustomerID>
+    <Name>Zhengping (正平)</Name>
+    <Age>26</Age>
+  </MyCustomer>
+</MyCustomers>
